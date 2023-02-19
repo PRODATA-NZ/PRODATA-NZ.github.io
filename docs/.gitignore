@@ -7,3 +7,4 @@ vendor
 .session.vim
 tags
 tags.tmp
+.session.vim
