@@ -1,0 +1,28 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/rcir178/PRODATA-NZ.github.io/src/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20220828.0/
+dribbble	_site/assets/minima-social-icons.svg	/^<symbol id="dribbble" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-mit/;"	i
+facebook	_site/assets/minima-social-icons.svg	/^<symbol id="facebook" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-mit/;"	i
+flickr	_site/assets/minima-social-icons.svg	/^<symbol id="flickr" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miter/;"	i
+github	_site/assets/minima-social-icons.svg	/^<symbol id="github" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miter/;"	i
+googleplus	_site/assets/minima-social-icons.svg	/^<symbol id="googleplus" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-m/;"	i
+instagram	_site/assets/minima-social-icons.svg	/^<symbol id="instagram" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-mi/;"	i
+linkedin	_site/assets/minima-social-icons.svg	/^<symbol id="linkedin" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-mit/;"	i
+mastodon	_site/assets/minima-social-icons.svg	/^<symbol id="mastodon" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-mit/;"	i
+nsa17ebafb0101	_site/feed.xml	/^<?xml version="1.0" encoding="utf-8"?><feed xmlns="http:\/\/www.w3.org\/2005\/Atom" ><generator /;"	n	uri:http://www.w3.org/2005/Atom
+nsa4c981f40101	_site/assets/minima-social-icons.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" xmlns:xlink="http:\/\/www.w3.org\/1999\/xlink">$/;"	n	uri:http://www.w3.org/2000/svg
+nsa4c981f40201	_site/assets/minima-social-icons.svg	/^<symbol id="stackoverflow" class="svg-icon" xmlns="http:\/\/www.w3.org\/2000\/svg" fill-rule="ev/;"	n	uri:http://www.w3.org/2000/svg
+pinterest	_site/assets/minima-social-icons.svg	/^<symbol id="pinterest" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-mi/;"	i
+rss	_site/assets/minima-social-icons.svg	/^<symbol id="rss" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlim/;"	i
+stackoverflow	_site/assets/minima-social-icons.svg	/^<symbol id="stackoverflow" class="svg-icon" xmlns="http:\/\/www.w3.org\/2000\/svg" fill-rule="ev/;"	i
+twitter	_site/assets/minima-social-icons.svg	/^<symbol id="twitter" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-mite/;"	i
+xlink	_site/assets/minima-social-icons.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" xmlns:xlink="http:\/\/www.w3.org\/1999\/xlink">$/;"	n	uri:http://www.w3.org/1999/xlink
+youtube	_site/assets/minima-social-icons.svg	/^<symbol id="youtube" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-mite/;"	i
