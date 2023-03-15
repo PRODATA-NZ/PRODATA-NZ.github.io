@@ -1,5 +1,5 @@
 ---
-# layout: post
+#layout: single
 title:  "How this site was created!"
 date:   2022-12-14 19:00:35 +0800
 categories: jekyll update site

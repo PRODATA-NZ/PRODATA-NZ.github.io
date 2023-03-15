@@ -1,7 +1,9 @@
 ---
-# layout: page
+layout: single
 title: PostgreSQL, strategic platform
 permalink: /postgres/
+date:   2022-11-12 14:00:35 +0800
+categories: postgres sql database postgresql
 ---
 
 PRODATA Ltd. strategically incorporated PostgreSQL into its enterprise data management platform and solutions, recognizing the numerous benefits that come with utilizing open source software (OSS) when implementing a new system.
@@ -28,4 +30,12 @@ By utilizing continuous archiving, PRODATA Ltd. can create standby servers that 
 
 Overall, the use of continuous archiving and streaming replication features in PostgreSQL as a strategic platform provides PRODATA Ltd. with a highly effective and reliable solution for achieving high availability and minimizing downtime. By implementing these features, the company can ensure business continuity, minimize the risk of data loss, and provide its customers with a high-quality and dependable software solution.
 
-More about PostgreSQL DBMS you can find at [www.postgresql.org](https://www.postgresql.org/)
+More about PostgreSQL DBMS you can find at [www.postgresql.org](https://www.postgresql.org/). PostgreSQL is an open source database management system with a thriving community of developers and users. There is a wealth of information available to help individuals become familiar with PostgreSQL, discover how it works, and even find career opportunities within the community.
+
+One of the best places to start is by exploring [the official PostgreSQL documentation](https://www.postgresql.org/docs/current/index.html) . This documentation is comprehensive and provides detailed information on how to install, configure, and use PostgreSQL. Additionally, the PostgreSQL website has a number of resources available, including a wiki, a mailing list, and a forum, where users can ask questions and get support from the community.
+
+The open source community also provides many other helpful resources for individuals interested in learning more about PostgreSQL. There are numerous blogs, tutorials, and video courses available that cover everything from basic installation and configuration to more advanced topics like performance tuning and replication.
+
+Engaging with the PostgreSQL community is also a great way to learn more about the database management system and to connect with other users and developers. There are a number of community-driven events, such as conferences and meetups, that provide opportunities to network and learn from experts in the field. Additionally, contributing to the PostgreSQL project through code contributions, documentation, or community outreach is a great way to gain experience and make a name for oneself within the community.
+
+In summary, there are many resources available for individuals interested in learning more about PostgreSQL and engaging with the community. From official documentation to community-driven events and resources, the PostgreSQL community is vibrant and welcoming to users of all levels of expertise.
