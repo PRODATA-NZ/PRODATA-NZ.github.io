@@ -16,7 +16,7 @@ header:
     - label: "<i class='fab fa-github'></i> Find us at Github"
       url: "https://github.com/PRODATA-NZ"
 excerpt: >
-  Custom software solutions developmen<br />
+  Custom software solutions development<br />
   <small><a href="https://github.com/PRODATA-NZ">Find us at Github</a></small>
 feature_row:
   - image_path: /assets/images/home/mm-news.png
