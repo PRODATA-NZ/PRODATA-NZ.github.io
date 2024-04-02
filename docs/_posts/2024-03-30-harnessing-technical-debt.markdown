@@ -13,6 +13,8 @@ such as microservices, serverless architecture, agile development, and Test Driv
 We argue that embracing technical debt can lead to the discovery and implementation of cutting-edge approaches, ultimately fostering innovation in software development. 
 Therefore, instead of hindering, the technical debt empowers software development.
 
+![The Wheel of Technical Debt](/assets/images/the_wheel.png)
+
 # Exploration of Emerging Solutions:
 
 Technical debt arises from the trade-off between short-term gains and long-term consequences. 
