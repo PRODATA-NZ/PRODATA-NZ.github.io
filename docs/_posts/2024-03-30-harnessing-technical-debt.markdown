@@ -5,6 +5,8 @@ date: 2023-02-14 14:10:15 +0800
 categories:
   - technical debt
   - innovation
+  - tdd
+  - bdd
 ---
 
 Technical debt is often viewed as a burden, an accumulation of shortcuts and quick fixes that weigh down software development projects. 
