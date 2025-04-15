@@ -1,5 +1,5 @@
 ---
-layout:  post
+layout:  single
 title: "Successfully completed migration to PostgreSQL 17.2"
 date: 2025-01-09 13:27:00 +0800
 categories:

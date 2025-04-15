@@ -1,5 +1,5 @@
 ---
-layout:  post
+layout:  single
 title: "Harnessing Technical Debt for Innovation: A Catalyst for Emerging Solutions"
 date: 2023-02-14 14:10:15 +0800
 categories:
