@@ -26,6 +26,13 @@ feature_row:
     url: "/posts/"
     btn_class: "btn--primary"
     btn_label: "News..."      
+  - image_path: /assets/images/home/mm-news.png
+    alt: "news"
+    title: "News"
+    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
+    url: "/posts/"
+    btn_class: "btn--primary"
+    btn_label: "News..."      
   - image_path: /assets/images/mm-customizable-feature.png
     alt: "customizable"
     title: "Super customizable"
