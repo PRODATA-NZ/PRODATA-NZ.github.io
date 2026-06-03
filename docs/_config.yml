@@ -1,78 +1,38 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
 title: "PRODATA TAPUI Ltd."
-auhor: "PRODATA TAPUI Ltd."
+author: "PRODATA TAPUI Ltd."
 name: "PRODATA TAPUI Ltd."
 email: enquiries@prodata.nz
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.prodata.nz" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: 
-github_username:  PRODATA-NZ
+description: >-
+  Custom software solutions and independent data consultancy for organisations
+  across New Zealand.
+baseurl: ""
+url: "https://www.prodata.nz"
+github_username: PRODATA-NZ
 
-# Build settings
-# theme: minimal-mistakes-jekyll
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
-# minimal_mistakes_skin: "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 minimal_mistakes_skin: "mint"
 logo: /assets/images/logo.png
 breadcrumbs: true
 locale: "en-NZ"
-# locale: "en-NZ"
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-include-cache
+  - jekyll-remote-theme
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
 include:
-  # - .htaccess
   - _pages
-  - _posts
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
 
+collections:
+  news:
+    output: true
+    permalink: /news/:name/
+  articles:
+    output: true
+    permalink: /articles/:name/
 
-# Defaults
 defaults:
-  # _posts
   - scope:
       path: "_posts"
       type: posts
@@ -84,79 +44,39 @@ defaults:
       share: true
       related: true
   - scope:
-      path: "_news"
-      type: posts
+      path: ""
+      type: news
     values:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
       share: true
       related: true
-  # _pages
+  - scope:
+      path: ""
+      type: articles
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      share: true
+      related: true
   - scope:
       path: "_pages"
       type: pages
     values:
-      # layout: single
       author_profile: true
-  # # _docs
-  # - scope:
-  #     path: ""
-  #     type: docs
-  #   values:
-  #     layout: single
-  #     read_time: false
-  #     author_profile: false
-  #     share: false
-  #     comments: false
-  #     sidebar:
-  #       nav: "docs"
-  # # _recipes
-  # - scope:
-  #     path: ""
-  #     type: recipes
-  #   values:
-  #     layout: single
-  #     author_profile: true
-  #     share: true
-  #     comments: true
-  # # _pets
-  # - scope:
-  #     path: ""
-  #     type: pets
-  #   values:
-  #     layout: single
-  #     author_profile: true
-  #     share: true
-  #     comment: true
-  # # _portfolio
-  # - scope:
-  #     path: ""
-  #     type: portfolio
-  #   values:
-  #     layout: single
-  #     author_profile: false
-  #     share: true
-  #
-  # Site Footer
+
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://github.com/PRODATA-NZ"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
+  - __

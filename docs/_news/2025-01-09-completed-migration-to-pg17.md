@@ -1,13 +1,12 @@
 ---
-layout: single
 title: "Successfully completed migration to PostgreSQL 17.2"
 date: 2025-01-09 13:27:00 +0800
+excerpt: "We completed testing and migration of all PRO DATA customer solutions to PostgreSQL 17."
 categories:
   - db
   - postgres
   - postgresql
 ---
-
 On September 26, 2024, the PostgreSQL Global Development Group announced the release of PostgreSQL 17, the latest version of the world's most advanced open-source database. We are excited to share the successful completion of testing and the migration of all solutions provided by PRO DATA to PostgreSQL 17 for our valued customers.
 
 PostgreSQL 17 builds on decades of open-source development, enhancing its performance and scalability while adapting to emerging data access and storage patterns. This release includes significant performance improvements, such as an overhauled memory management implementation for vacuum processes, optimizations for storage access, and enhancements for high-concurrency workloads. Additionally, there are speed-ups in bulk loading and exports, as well as improvements in query execution for indexes.

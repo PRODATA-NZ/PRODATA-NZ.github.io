@@ -1,14 +1,11 @@
 ---
-layout: single
 title: "Harnessing Technical Debt for Innovation: A Catalyst for Emerging Solutions"
-date: 2023-02-14 14:10:15 +0800
+date: 2024-03-30 14:10:15 +0800
+excerpt: "Technical debt can catalyze innovation when harnessed with discipline and clear goals."
 categories:
   - technical debt
   - innovation
-  - tdd
-  - bdd
 ---
-
 Technical debt is often viewed as a burden, an accumulation of shortcuts and quick fixes that weigh down software development projects. 
 However, while it might appear counter-intuitive when harnessed effectively, technical debt can catalyze innovation, driving the exploration and adoption of emerging solutions 
 such as microservices, serverless architecture, agile development, and Test Driven Development (TDD) and Behavior Driven Development (BDD). 
