@@ -34,7 +34,7 @@ collections:
     output: true
     permalink: /articles/:name/
     sort_by: date
-    sort_order: reverse
+    # sort_order: reverse
 
 defaults:
   - scope:
